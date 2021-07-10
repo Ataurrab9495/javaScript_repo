@@ -1,7 +1,30 @@
 body{
-    background: url('https://cdn.pixabay.com/photo/2016/04/25/18/03/kingfisher-1352520__340.jpg');
+    background: url('https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637__340.jpg');
     width:100%;
     height:100vh;
-    background-size: 100% 100%;
+    background-size: cover;
     margin: 0;
+}
+
+.background{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100vh;
+    width:100%;
+}
+
+.jamming-container{
+    border: 2px solid black;
+    padding: 25px 30px;
+    background-color:#010108;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius:4px;
+}
+
+.onPlay:hover{
+    border: 4px solid gold;
 }
